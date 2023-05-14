@@ -1,15 +1,21 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app"
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBYHaiUcl5dmgfyVwiXVRJKulm3d_zhPew",
-  authDomain: "discord-clone-73830.firebaseapp.com",
-  projectId: "discord-clone-73830",
-  storageBucket: "discord-clone-73830.appspot.com",
-  messagingSenderId: "25544176933",
-  appId: "1:25544176933:web:4f4eb70584ea5c9eff16cc",
-  measurementId: "G-SH2STRGV2Z"
-}
+  apiKey: "AIzaSyA6fGyeN3Ms9tfjdy5Izves6tvBA9suypE",
+  authDomain: "chat-clone-5af5c.firebaseapp.com",
+  projectId: "chat-clone-5af5c",
+  storageBucket: "chat-clone-5af5c.appspot.com",
+  messagingSenderId: "715876580899",
+  appId: "1:715876580899:web:ad1577eebf98c0641f3b96",
+  measurementId: "G-XLBJCFPX8J"
+};
 
+// Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig)
 
 export default firebaseApp
