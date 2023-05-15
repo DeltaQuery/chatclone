@@ -36,7 +36,7 @@ $ npm run dev
 
 ## Online Version
 
-You can test the App following this link https://chat-clone-5af5c.web.app/
+You can test the App following this link https://deltaquery.github.io/chatclone/#/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
